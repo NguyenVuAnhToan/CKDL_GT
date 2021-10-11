@@ -10,7 +10,7 @@ public class Bai4 {
         System.out.println(">>1: Giải phương trình bậc 1.");
         System.out.println(">>2: Giải phương trình bậc 2.");
         System.out.println(">>3: Tính tiền điện.");
-        System.out.print("Nhập vào sự lựa chọn(1>>3): " );
+        System.out.print("Mời chọn chức năng trên (1>>3): " );
         d = luaChon.nextInt();
         switch(d) {
             case 1: giaiPTBac1(); break;
