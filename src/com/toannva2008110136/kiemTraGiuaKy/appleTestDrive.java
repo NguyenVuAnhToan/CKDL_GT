@@ -18,15 +18,15 @@ public class appleTestDrive {
   static void nhap() {
         appleList = new ArrayList<Apple>();
         while(true){
-            System.out.print("Nhap id: ");
+            System.out.print("xin mời nhập id của Apple: ");
             int id = scanner.nextInt();
-            System.out.print("Nhap khoi luong: ");
+            System.out.print("xin mời bạn nhập khối lượng của Apple: ");
             double khoiLuong = scanner.nextDouble();
             scanner.nextLine();
-            System.out.print("mau sac: ");
+            System.out.print("xin mời bạn nhập màu sắc: ");
             String mauSac = scanner.nextLine();
             appleList.add(new Apple(id, khoiLuong, mauSac));
-            System.out.print("Nhập thêm (Y/N)? ");
+            System.out.print("Nhập thêm nhấn (Y) Không nhập thêm nhấn (N or n)? ");
             String luaChon = scanner.nextLine();
             if(luaChon.equals("N") || luaChon.equals("n")){ 
                 break; 
@@ -58,7 +58,7 @@ public class appleTestDrive {
                 }
           }
           System.out.println("Bạn có muốn tìm tiếp màu sắc: ");
-          System.out.print("Tìm tiếp (Y/N)? ");
+          System.out.print("Tìm tiếp nhấn (Y) Không tìm tiếp nhấn (N or n) ? ");
           String luaChon = scanner.nextLine();
             if(luaChon.equals("N") || luaChon.equals("n")){ 
                 break; 
